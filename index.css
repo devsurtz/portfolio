@@ -194,7 +194,7 @@ background-color: #18191f;
     height: 500px;
 }
 .blob{
-  background-image: url(img/JDR_2422@-261074180.jpg);
+  background-image: url(img/me/surtz.svg);
   width: 60%;
   height: 65%;
   background-size: cover;
@@ -223,7 +223,7 @@ background-color: #18191f;
     display: flex;
     justify-content:space-evenly;
     align-items: center;
-    background-image: url('img/bg/black.jpg');
+    background-image: url('img/bg/bg.svg');
     height: 100%; 
 
   /* Create the parallax scrolling effect */
@@ -231,6 +231,7 @@ background-color: #18191f;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  /* background-color: rgba(0, 0, 0, 0.5); */
 }
 .homeSection .homeContent .askBox{
     background-color: burlywood;
@@ -284,9 +285,14 @@ background-color: #18191f;
     padding: 5px 10px 5px 10px;
 }
 .askBotSection{
-  margin-top: 59rem;
+  position: relative;
+  z-index: 10;
+  margin-top: 56rem;
   height: 80vh;
-  width: 100vw;
+  border-top: red;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  /* width: 100vw; */
   padding: 2rem;
     display: flex;
     justify-content: center;
